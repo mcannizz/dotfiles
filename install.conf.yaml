@@ -7,3 +7,5 @@
     ~/.oh-my-zsh: oh-my-zsh/
     ~/.zshrc: zshrc
 
+- shell:
+    - [git submodule update oh-my-zsh]
