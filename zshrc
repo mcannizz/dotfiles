@@ -42,3 +42,4 @@ then
     source $HOME/.zshrc-local
 fi
 
+EDITOR=vim
