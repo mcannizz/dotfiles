@@ -1,3 +1,7 @@
 - shell:
   - echo "Setting up dotfiles..."
 
+- link:
+    ~/.vim: vim/
+    ~/.vimrc: vimrc
+
