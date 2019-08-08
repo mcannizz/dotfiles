@@ -43,6 +43,9 @@ nnoremap L $
 inoremap jk <esc>
 inoremap <esc> <nop>
 
+"Fix paste bug by disabling bracketed paste
+set t_BE=
+
 " Autocmds
 augroup filetype_html
     autocmd!
